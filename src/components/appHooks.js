@@ -7,7 +7,7 @@ import useVideos from '../hooks/useVideos'
 
 const App = () => {
     const [selectedVideo, setSelectedVideo] = useState(null)
-    const [videos, search] = useVideos('csgo');
+    const [videos, search] = useVideos('Trending');
     useEffect(() => {
         setSelectedVideo(videos[0])
     }, [videos])
