@@ -18,7 +18,7 @@ phases:
     commands:
       - yarn test
       - yarn build
-artifacts
+artifacts:
   files:
     - "**/*"
   discard-paths: no
