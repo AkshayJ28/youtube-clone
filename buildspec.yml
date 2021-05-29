@@ -18,8 +18,11 @@ phases:
     commands:
       - yarn test
       - yarn build
+<<<<<<< HEAD:build.yml
 artifacts
   files:
     - "**/*"
   discard-paths: no
   base-directory: src
+=======
+>>>>>>> 2f74e9525b8d3f87b00b4191df4e886e80cebdc8:buildspec.yml
